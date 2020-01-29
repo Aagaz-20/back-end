@@ -1,0 +1,34 @@
+{
+  "name": "aagaz-server",
+  "version": "1.0.0",
+  "description": "Backend Node-Server of Aagaz 2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-server": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "keywords": [
+    "aagaz",
+    "server"
+  ],
+  "author": "Yashveer Talan",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.5.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.9",
+    "querystring": "^0.2.0",
+    "speakeasy": "^2.0.0",
+    "util": "^0.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
