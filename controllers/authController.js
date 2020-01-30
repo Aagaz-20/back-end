@@ -57,7 +57,7 @@ exports.postSignUp = async (req, res) => {
                 from: 'officialaagaz20@gmail.com',
                 subject: 'Email Verification',
                 text: 'Welcome to Aagaz 2020',
-                html: `<strong><h2> Welcome to Aagaz 2020. </h2><h3> Here is your Email Verification link. Please click on the link to verify your email address.<br /></h3><h4> <a href="http://aagaz.herokuapp.com/emailverify/${token}">http://aagaz.herokuapp.com/emailverify/${token}</a></h4><br /> <h3> - Team Aagaz</h3><strong>`,
+                html: `<strong><h2> Welcome to Aagaz 2020. </h2><h3> Here is your Email Verification link. Please click on the link to verify your email address.<br /></h3><h4> <a href="https://aagazhbtu.org/emailverify/${token}">https://aagazhbtu.org/emailverify/${token}</a></h4><br /> <h3> - Team Aagaz</h3><strong>`,
               };
             sgMail.send(msg);
             const result = await user.save();
