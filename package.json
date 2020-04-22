@@ -23,7 +23,7 @@
     "crypto": "^1.0.1",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.8.9",
+    "mongoose": "^5.9.2",
     "querystring": "^0.2.0",
     "speakeasy": "^2.0.0",
     "util": "^0.12.1"

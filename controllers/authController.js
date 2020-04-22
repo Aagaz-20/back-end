@@ -4,7 +4,8 @@ const sgMail = require('@sendgrid/mail');
 const speakeasy = require('speakeasy');
 
 
-sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+// sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+sgMail.setApiKey('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')
 
 
 
